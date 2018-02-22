@@ -7,14 +7,23 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		630E6A1A203EE17300CDBD52 /* CustomCellTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 630E6A19203EE17300CDBD52 /* CustomCellTableViewCell.swift */; };
+		63B2B298203D92E3000C5AA5 /* Moya.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 63B2B299203D92E3000C5AA5 /* Moya.framework */; };
 		63E9D5DB203D768300E5EDA1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63E9D5DA203D768300E5EDA1 /* AppDelegate.swift */; };
 		63E9D5DD203D768300E5EDA1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63E9D5DC203D768300E5EDA1 /* ViewController.swift */; };
 		63E9D5E0203D768300E5EDA1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 63E9D5DE203D768300E5EDA1 /* Main.storyboard */; };
 		63E9D5E2203D768300E5EDA1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 63E9D5E1203D768300E5EDA1 /* Assets.xcassets */; };
 		63E9D5E5203D768300E5EDA1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 63E9D5E3203D768300E5EDA1 /* LaunchScreen.storyboard */; };
+		63E9D5EE203D7A0200E5EDA1 /* Cryptocurrency.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63E9D5ED203D7A0200E5EDA1 /* Cryptocurrency.swift */; };
+		63E9D5F0203D80B400E5EDA1 /* ObjectMapper.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 63E9D5F1203D80B400E5EDA1 /* ObjectMapper.framework */; };
+		63E9D5F3203D85BA00E5EDA1 /* CoinMarketCapAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63E9D5F2203D85BA00E5EDA1 /* CoinMarketCapAPI.swift */; };
+		63E9D5F5203D8B6A00E5EDA1 /* API.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63E9D5F4203D8B6A00E5EDA1 /* API.swift */; };
+		6D16DC30B3AE2465F61C64FC /* Pods_CryptoMarket.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7B14D5548CD5D47CCCCDCA89 /* Pods_CryptoMarket.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		630E6A19203EE17300CDBD52 /* CustomCellTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomCellTableViewCell.swift; sourceTree = "<group>"; };
+		63B2B299203D92E3000C5AA5 /* Moya.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Moya.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		63E9D5D7203D768300E5EDA1 /* CryptoMarket.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CryptoMarket.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		63E9D5DA203D768300E5EDA1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		63E9D5DC203D768300E5EDA1 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -22,6 +31,13 @@
 		63E9D5E1203D768300E5EDA1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		63E9D5E4203D768300E5EDA1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		63E9D5E6203D768300E5EDA1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		63E9D5ED203D7A0200E5EDA1 /* Cryptocurrency.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cryptocurrency.swift; sourceTree = "<group>"; };
+		63E9D5F1203D80B400E5EDA1 /* ObjectMapper.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = ObjectMapper.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		63E9D5F2203D85BA00E5EDA1 /* CoinMarketCapAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoinMarketCapAPI.swift; sourceTree = "<group>"; };
+		63E9D5F4203D8B6A00E5EDA1 /* API.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = API.swift; sourceTree = "<group>"; };
+		69DF6086E71CED20EBE05CDF /* Pods-CryptoMarket.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CryptoMarket.release.xcconfig"; path = "Pods/Target Support Files/Pods-CryptoMarket/Pods-CryptoMarket.release.xcconfig"; sourceTree = "<group>"; };
+		7B14D5548CD5D47CCCCDCA89 /* Pods_CryptoMarket.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CryptoMarket.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7B34FF28BB3D1C1DDFDB0F41 /* Pods-CryptoMarket.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CryptoMarket.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CryptoMarket/Pods-CryptoMarket.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,17 +45,39 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				63B2B298203D92E3000C5AA5 /* Moya.framework in Frameworks */,
+				63E9D5F0203D80B400E5EDA1 /* ObjectMapper.framework in Frameworks */,
+				6D16DC30B3AE2465F61C64FC /* Pods_CryptoMarket.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		229E2441A45FEEF1A7816A34 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				7B34FF28BB3D1C1DDFDB0F41 /* Pods-CryptoMarket.debug.xcconfig */,
+				69DF6086E71CED20EBE05CDF /* Pods-CryptoMarket.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		630E6A18203EE13300CDBD52 /* View items */ = {
+			isa = PBXGroup;
+			children = (
+				630E6A19203EE17300CDBD52 /* CustomCellTableViewCell.swift */,
+			);
+			path = "View items";
+			sourceTree = "<group>";
+		};
 		63E9D5CE203D768300E5EDA1 = {
 			isa = PBXGroup;
 			children = (
 				63E9D5D9203D768300E5EDA1 /* CryptoMarket */,
 				63E9D5D8203D768300E5EDA1 /* Products */,
+				229E2441A45FEEF1A7816A34 /* Pods */,
+				C2277103EB5BE2AC2BD5DA12 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -54,6 +92,9 @@
 		63E9D5D9203D768300E5EDA1 /* CryptoMarket */ = {
 			isa = PBXGroup;
 			children = (
+				63E9D5EF203D7A8300E5EDA1 /* Network */,
+				63E9D5EC203D795D00E5EDA1 /* Models */,
+				630E6A18203EE13300CDBD52 /* View items */,
 				63E9D5DA203D768300E5EDA1 /* AppDelegate.swift */,
 				63E9D5DC203D768300E5EDA1 /* ViewController.swift */,
 				63E9D5DE203D768300E5EDA1 /* Main.storyboard */,
@@ -64,6 +105,33 @@
 			path = CryptoMarket;
 			sourceTree = "<group>";
 		};
+		63E9D5EC203D795D00E5EDA1 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				63E9D5ED203D7A0200E5EDA1 /* Cryptocurrency.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		63E9D5EF203D7A8300E5EDA1 /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				63E9D5F2203D85BA00E5EDA1 /* CoinMarketCapAPI.swift */,
+				63E9D5F4203D8B6A00E5EDA1 /* API.swift */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		C2277103EB5BE2AC2BD5DA12 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				63B2B299203D92E3000C5AA5 /* Moya.framework */,
+				63E9D5F1203D80B400E5EDA1 /* ObjectMapper.framework */,
+				7B14D5548CD5D47CCCCDCA89 /* Pods_CryptoMarket.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -71,9 +139,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 63E9D5E9203D768300E5EDA1 /* Build configuration list for PBXNativeTarget "CryptoMarket" */;
 			buildPhases = (
+				8C4395873B0E7A77C5C666E5 /* [CP] Check Pods Manifest.lock */,
 				63E9D5D3203D768300E5EDA1 /* Sources */,
 				63E9D5D4203D768300E5EDA1 /* Frameworks */,
 				63E9D5D5203D768300E5EDA1 /* Resources */,
+				451505CB1745CF86C952C28A /* [CP] Embed Pods Frameworks */,
+				0C7C1C46B83C9AFFB2B82BCC /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -131,13 +202,81 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		0C7C1C46B83C9AFFB2B82BCC /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CryptoMarket/Pods-CryptoMarket-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		451505CB1745CF86C952C28A /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-CryptoMarket/Pods-CryptoMarket-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/Moya/Moya.framework",
+				"${BUILT_PRODUCTS_DIR}/ObjectMapper/ObjectMapper.framework",
+				"${BUILT_PRODUCTS_DIR}/PromiseKit/PromiseKit.framework",
+				"${BUILT_PRODUCTS_DIR}/Result/Result.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftyJSON/SwiftyJSON.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Moya.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ObjectMapper.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/PromiseKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Result.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyJSON.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CryptoMarket/Pods-CryptoMarket-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8C4395873B0E7A77C5C666E5 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-CryptoMarket-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		63E9D5D3203D768300E5EDA1 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				63E9D5F3203D85BA00E5EDA1 /* CoinMarketCapAPI.swift in Sources */,
 				63E9D5DD203D768300E5EDA1 /* ViewController.swift in Sources */,
+				630E6A1A203EE17300CDBD52 /* CustomCellTableViewCell.swift in Sources */,
+				63E9D5EE203D7A0200E5EDA1 /* Cryptocurrency.swift in Sources */,
 				63E9D5DB203D768300E5EDA1 /* AppDelegate.swift in Sources */,
+				63E9D5F5203D8B6A00E5EDA1 /* API.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -272,6 +411,7 @@
 		};
 		63E9D5EA203D768300E5EDA1 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7B34FF28BB3D1C1DDFDB0F41 /* Pods-CryptoMarket.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -287,6 +427,7 @@
 		};
 		63E9D5EB203D768300E5EDA1 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 69DF6086E71CED20EBE05CDF /* Pods-CryptoMarket.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
