@@ -36,47 +36,11 @@
                                             <rect key="frame" x="0.0" y="0.0" width="375" height="59.5"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
-                                                <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="20" translatesAutoresizingMaskIntoConstraints="NO" id="82w-WP-9WH" userLabel="second line">
-                                                    <rect key="frame" x="21" y="33" width="340" height="20.5"/>
-                                                    <subviews>
-                                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ex5-sO-yJ2">
-                                                            <rect key="frame" x="0.0" y="0.0" width="100" height="20.5"/>
-                                                            <accessibility key="accessibilityConfiguration" identifier="priceusd"/>
-                                                            <constraints>
-                                                                <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="60" id="aIz-aF-6hE"/>
-                                                                <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="60" id="ttp-31-hcV"/>
-                                                            </constraints>
-                                                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                                            <nil key="textColor"/>
-                                                            <nil key="highlightedColor"/>
-                                                        </label>
-                                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="kSk-V5-Efw">
-                                                            <rect key="frame" x="120" y="0.0" width="100" height="20.5"/>
-                                                            <accessibility key="accessibilityConfiguration" identifier="pricebtc"/>
-                                                            <constraints>
-                                                                <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="100" id="gck-e5-mp8"/>
-                                                            </constraints>
-                                                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                                            <nil key="textColor"/>
-                                                            <nil key="highlightedColor"/>
-                                                        </label>
-                                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bwW-jG-9tq">
-                                                            <rect key="frame" x="240" y="0.0" width="100" height="20.5"/>
-                                                            <accessibility key="accessibilityConfiguration" identifier="rank"/>
-                                                            <constraints>
-                                                                <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="40" id="ACg-hd-dAs"/>
-                                                            </constraints>
-                                                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                                            <nil key="textColor"/>
-                                                            <nil key="highlightedColor"/>
-                                                        </label>
-                                                    </subviews>
-                                                </stackView>
                                                 <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="6" translatesAutoresizingMaskIntoConstraints="NO" id="f8d-B6-hsn" userLabel="first line">
-                                                    <rect key="frame" x="20" y="0.0" width="306" height="25"/>
+                                                    <rect key="frame" x="20" y="0.0" width="350" height="25"/>
                                                     <subviews>
                                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" restorationIdentifier="name" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" preferredMaxLayoutWidth="150" translatesAutoresizingMaskIntoConstraints="NO" id="Ey2-82-9Hu">
-                                                            <rect key="frame" x="0.0" y="0.0" width="150" height="25"/>
+                                                            <rect key="frame" x="0.0" y="0.0" width="172" height="25"/>
                                                             <accessibility key="accessibilityConfiguration" identifier="name"/>
                                                             <constraints>
                                                                 <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="150" id="exR-IW-Cxh"/>
@@ -87,7 +51,7 @@
                                                             <nil key="highlightedColor"/>
                                                         </label>
                                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="QGz-8O-Oxy">
-                                                            <rect key="frame" x="156" y="0.0" width="150" height="25"/>
+                                                            <rect key="frame" x="178" y="0.0" width="172" height="25"/>
                                                             <accessibility key="accessibilityConfiguration" identifier="symbol"/>
                                                             <constraints>
                                                                 <constraint firstAttribute="height" constant="25" id="6zs-3J-UMg"/>
@@ -105,12 +69,50 @@
                                                         <constraint firstAttribute="bottom" secondItem="Ey2-82-9Hu" secondAttribute="bottom" id="msy-jg-4cX"/>
                                                     </constraints>
                                                 </stackView>
+                                                <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="20" translatesAutoresizingMaskIntoConstraints="NO" id="82w-WP-9WH" userLabel="second line">
+                                                    <rect key="frame" x="21" y="33" width="349" height="20.5"/>
+                                                    <subviews>
+                                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ex5-sO-yJ2">
+                                                            <rect key="frame" x="0.0" y="0.0" width="103" height="20.5"/>
+                                                            <accessibility key="accessibilityConfiguration" identifier="priceusd"/>
+                                                            <constraints>
+                                                                <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="60" id="aIz-aF-6hE"/>
+                                                                <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="60" id="ttp-31-hcV"/>
+                                                            </constraints>
+                                                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                            <nil key="textColor"/>
+                                                            <nil key="highlightedColor"/>
+                                                        </label>
+                                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="kSk-V5-Efw">
+                                                            <rect key="frame" x="123" y="0.0" width="103" height="20.5"/>
+                                                            <accessibility key="accessibilityConfiguration" identifier="pricebtc"/>
+                                                            <constraints>
+                                                                <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="100" id="gck-e5-mp8"/>
+                                                            </constraints>
+                                                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                            <nil key="textColor"/>
+                                                            <nil key="highlightedColor"/>
+                                                        </label>
+                                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bwW-jG-9tq">
+                                                            <rect key="frame" x="246" y="0.0" width="103" height="20.5"/>
+                                                            <accessibility key="accessibilityConfiguration" identifier="rank"/>
+                                                            <constraints>
+                                                                <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="40" id="ACg-hd-dAs"/>
+                                                            </constraints>
+                                                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                            <nil key="textColor"/>
+                                                            <nil key="highlightedColor"/>
+                                                        </label>
+                                                    </subviews>
+                                                </stackView>
                                             </subviews>
                                             <constraints>
                                                 <constraint firstItem="82w-WP-9WH" firstAttribute="top" secondItem="f8d-B6-hsn" secondAttribute="bottom" constant="8" symbolic="YES" id="GZK-s1-KkP"/>
                                                 <constraint firstItem="f8d-B6-hsn" firstAttribute="leading" secondItem="82w-WP-9WH" secondAttribute="leading" constant="-1" id="H8f-Vc-l7W"/>
                                                 <constraint firstItem="f8d-B6-hsn" firstAttribute="top" secondItem="m9f-4j-xYt" secondAttribute="top" id="K27-dG-DPb"/>
+                                                <constraint firstAttribute="trailing" secondItem="f8d-B6-hsn" secondAttribute="trailing" constant="5" id="gYO-Af-701"/>
                                                 <constraint firstItem="f8d-B6-hsn" firstAttribute="leading" secondItem="m9f-4j-xYt" secondAttribute="leadingMargin" constant="5" id="rRB-GV-MGc"/>
+                                                <constraint firstAttribute="trailing" secondItem="82w-WP-9WH" secondAttribute="trailing" constant="5" id="sh2-99-5IY"/>
                                             </constraints>
                                         </tableViewCellContentView>
                                         <accessibility key="accessibilityConfiguration" identifier="cryptocell"/>
