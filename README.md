@@ -8,7 +8,7 @@ Crypto Market lists a bunch of the top cryptocurrencies on the market. It displa
 Screenshots
 ------
  <p align="center"> 
-<img src="https://github.com/MohamedDer/Crypto-Market/blob/master/Screenshots/Screen%20Shot%202018-02-27%20at%2014.53.27.png">
+<img src="https://github.com/MohamedDer/Crypto-Market/blob/master/Screenshots/screen1.png">
 
 </p>
  
