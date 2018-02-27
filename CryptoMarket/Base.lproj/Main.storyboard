@@ -70,36 +70,36 @@
                                                     </constraints>
                                                 </stackView>
                                                 <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="20" translatesAutoresizingMaskIntoConstraints="NO" id="82w-WP-9WH" userLabel="second line">
-                                                    <rect key="frame" x="21" y="33" width="349" height="20.5"/>
+                                                    <rect key="frame" x="21" y="33" width="349" height="18"/>
                                                     <subviews>
                                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ex5-sO-yJ2">
-                                                            <rect key="frame" x="0.0" y="0.0" width="103" height="20.5"/>
+                                                            <rect key="frame" x="0.0" y="0.0" width="103" height="18"/>
                                                             <accessibility key="accessibilityConfiguration" identifier="priceusd"/>
                                                             <constraints>
                                                                 <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="60" id="aIz-aF-6hE"/>
                                                                 <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="60" id="ttp-31-hcV"/>
                                                             </constraints>
-                                                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                            <fontDescription key="fontDescription" type="system" pointSize="15"/>
                                                             <nil key="textColor"/>
                                                             <nil key="highlightedColor"/>
                                                         </label>
                                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="kSk-V5-Efw">
-                                                            <rect key="frame" x="123" y="0.0" width="103" height="20.5"/>
+                                                            <rect key="frame" x="123" y="0.0" width="103" height="18"/>
                                                             <accessibility key="accessibilityConfiguration" identifier="pricebtc"/>
                                                             <constraints>
                                                                 <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="100" id="gck-e5-mp8"/>
                                                             </constraints>
-                                                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                            <fontDescription key="fontDescription" type="system" pointSize="15"/>
                                                             <nil key="textColor"/>
                                                             <nil key="highlightedColor"/>
                                                         </label>
                                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bwW-jG-9tq">
-                                                            <rect key="frame" x="246" y="0.0" width="103" height="20.5"/>
+                                                            <rect key="frame" x="246" y="0.0" width="103" height="18"/>
                                                             <accessibility key="accessibilityConfiguration" identifier="rank"/>
                                                             <constraints>
                                                                 <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="40" id="ACg-hd-dAs"/>
                                                             </constraints>
-                                                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                            <fontDescription key="fontDescription" type="system" pointSize="15"/>
                                                             <nil key="textColor"/>
                                                             <nil key="highlightedColor"/>
                                                         </label>
