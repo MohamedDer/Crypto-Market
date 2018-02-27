@@ -7,12 +7,10 @@
 //
 
 import UIKit
+import Foundation
 
 
-
-
-
-class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSource {
+class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSource  {
 
     var cryptosData = [Cryptocurrency]()
 
@@ -21,15 +19,10 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
         super.viewDidLoad()
         self.myTableView.estimatedRowHeight = 80
         
-        API.getCryptoData().then{ response -> Void in
-            self.cryptosData = response
-            self.myTableView.reloadData()
-            
+        loadCoinsData()
+        
+        var timer = Timer.scheduledTimer(timeInterval: 180, target: self, selector: #selector(ViewController.loadCoinsData), userInfo: nil, repeats: true)
 
-            }.catch{ _ -> Void in
-                print("error 444")
-        }
-      
     }
     
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
@@ -47,6 +40,15 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
         return cell
     }
 
+    
+    @objc func loadCoinsData() -> Void {
+        API.getCryptoData().then{ response -> Void in
+            self.cryptosData = response
+            self.myTableView.reloadData()
+            }.catch{ _ -> Void in
+                print("error 444")
+        }
+    }
     
     
 
