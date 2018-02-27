@@ -19,7 +19,7 @@ class API {
         return Promise { fulfill, reject in
     
         var currencies = [Cryptocurrency]()
-        let target = CoinMarketCapAPI.ticker(limit: 10)
+        let target = CoinMarketCapAPI.ticker(limit: 15)
         let provider = MoyaProvider<CoinMarketCapAPI>(plugins: target.plugins)
 
         provider.request(target) { result in
