@@ -17,8 +17,9 @@ class API {
   
     static func getCryptoData() -> Promise<[Cryptocurrency]> {
         return Promise { fulfill, reject in
-    
         var currencies = [Cryptocurrency]()
+            
+        // create a target to get 15 cryptocurrency
         let target = CoinMarketCapAPI.ticker(limit: 15)
         let provider = MoyaProvider<CoinMarketCapAPI>(plugins: target.plugins)
 
@@ -26,6 +27,7 @@ class API {
             switch result {
             case let .success(response):
                 do {
+                    // parsin the received JSON file to an array of currencies
                     let json = try JSON(data: response.data)
                     for (_,element):(String, JSON) in json {
                         let currency = Cryptocurrency(JSONString: element.rawString()!)
@@ -40,18 +42,11 @@ class API {
 
             case let .failure(error):
                 reject(error)
-
             }
-
         }
 
         }
-    
-    
-    
     }
-    
-    
 }
 
 

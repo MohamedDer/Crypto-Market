@@ -20,7 +20,7 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
         self.myTableView.estimatedRowHeight = 80
         
         loadCoinsData()
-        
+        // fetch data every 3 minutes 
         var timer = Timer.scheduledTimer(timeInterval: 180, target: self, selector: #selector(ViewController.loadCoinsData), userInfo: nil, repeats: true)
 
     }

@@ -54,14 +54,14 @@ extension CoinMarketCapAPI: TargetType{
         switch self {
         case .ticker(let limit):
             return ["limit": limit]
-        default: ["limit": 10]
+//        default: ["limit": 10]
         }
     }
     
     var parameterEncoding: ParameterEncoding {
         switch self {
         case .ticker: return URLEncoding.queryString
-        default: return URLEncoding.default
+//        default: return URLEncoding.default
         }
     }
     
