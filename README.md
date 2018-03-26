@@ -17,7 +17,7 @@ Libraries & APIs
 - [Moya](https://github.com/Moya/Moya)  
 - [PromiseKit](https://github.com/mxcl/PromiseKit)
 - [SwiftyJSON](https://github.com/SwiftyJSON/SwiftyJSON)
-- [CoinMarketCap JSON API] (https://coinmarketcap.com/api/)
+- [CoinMarketCap JSON API](https://coinmarketcap.com/api/)
  
 
 
